@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.controller.MainController">
+    <children>
+        <AnchorPane layoutY="106.0" prefHeight="394.0" prefWidth="800.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Button fx:id="searchAppButton" layoutX="327.0" layoutY="297.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="120.0" style="-fx-background-color: #F39C63;" text="Process" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Button>
+                <TextField fx:id="planeNumberField" layoutX="39.0" layoutY="136.0" prefHeight="75.0" prefWidth="300.0" promptText="Input plane number here">
+               <font>
+                  <Font size="22.0" />
+               </font></TextField>
+            <TextField fx:id="countryField" editable="false" layoutX="453.0" layoutY="136.0" prefHeight="75.0" prefWidth="300.0" promptText="Check country name here">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </TextField>
+            </children>
+        </AnchorPane>
+        <Label layoutX="287.0" layoutY="35.0" text="Search App" textFill="WHITE">
+            <font>
+                <Font name="Times New Roman" size="48.0" />
+            </font>
+        </Label>
+        <Button fx:id="aboutAppButton" layoutX="657.0" layoutY="45.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="120.0" style="-fx-background-color: #F39C63;" text="About" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
